@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>firstproject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>camarks</servlet-name>
+    <servlet-class>com.servlet.camarks</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>camarks</servlet-name>
+    <url-pattern>/camarks</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>studentlogin</servlet-name>
+    <servlet-class>com.servlet.studentlogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>studentlogin</servlet-name>
+    <url-pattern>/studentlogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>registration</servlet-name>
+    <servlet-class>com.servlet.registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registration</servlet-name>
+    <url-pattern>/registration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>mycred</servlet-name>
+    <servlet-class>com.servlet.mycred</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mycred</servlet-name>
+    <url-pattern>/mycred</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>

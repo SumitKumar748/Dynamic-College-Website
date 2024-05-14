@@ -1,0 +1,160 @@
+#maindiv{
+    background-color: cadetblue;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.d1{
+    display: flex;
+    margin: auto;
+    background-color: #deb887;
+    border-radius: 5px;
+
+
+}
+.img1{
+    width: 35=px;
+    height: 35px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom: auto;
+}
+.d1 h1{
+
+    margin-right: auto;
+}
+
+.d2{
+    width: 100%;
+  height: 10px;
+  border-width: 5px;
+  background-color: rgb(209, 200, 204);
+
+}
+
+.d3{
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.d3 .b1{
+    margin-left:auto;
+    margin-right: auto;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+}
+
+.d3 .b2{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+}
+.d3 .b3{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+}
+.d3 .b4{
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#b1{
+    padding: 2px 15px 2px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#b1:hover{
+    color:blue;
+}
+
+#b2{
+    padding: 3px 15px 3px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#b2:hover{
+    color:blue;
+}
+
+
+
+#b3{
+    padding: 2px 15px 2px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#b3:hover{
+    color:blue;
+}
+
+
+
+.d4{
+  margin: auto;
+  width: 35%;
+  height: 300px;
+  border: 5px solid black;
+  padding: 50px 0px 50px 0px;
+  border-radius: 30px;
+  margin-top: 50px;
+  background-color:lightcoral;
+}
+
+
+.d4 .d41{
+    border: 5px;
+    border-color: black;
+    margin:auto;
+    margin-left:50px;
+    width:95%;
+}
+
+.d4 .l1{
+    font-size: 50px;
+    margin: auto;
+    width: 100%;
+    display: block;
+    padding-left:30px;
+
+}
+
+
+.d4 .i1{
+    margin-left:30px;
+    width: 40%;
+    padding: 10px 70px 10px 10px;
+    border-radius: 10px;
+}
+
+
+.d4 .d41 .login{
+	margin:auto;
+	width:10%;
+    font-size: 25px;
+    color:blue;
+    cursor: pointer;
+}
+
+
+.d4 .d41 .but1{
+    margin:auto ;
+    margin-top:15px;
+    margin-left:50px;
+    width:40%;
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+
+
+}

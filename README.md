@@ -1,4 +1,4 @@
-Dynamic College Website Project
+Dynamic College Website Project,
 Key features: 
 Home Page: Overview of college and upcoming events for community.
 Registration Page: New students can register.
